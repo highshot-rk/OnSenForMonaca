@@ -1,0 +1,132 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700");
+
+@font-face {
+  font-family: "SF Pro Display-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5b7d556a58482d00094a3c58/SF-Pro-Display-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/608ab7aef68e88411d2700be/fonts/sf-pro-display-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Text-Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/608b68c6d56a83496c2c859a/fonts/sf-pro-display-semibold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Text-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6008a098639e61868d22fa86/fonts/sf-pro-text-regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5faa69b834f41eb19b445688/fonts/notosanscjkjp-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5faa69b834f41eb19b445688/fonts/notosanscjkjp-medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6024a1fa547fa7cf23f9aca5/fonts/notosanscjkjp-regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Text-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/605a4daa8cdfdd614c2d8ffd/fonts/fontsfree-net-sfprotext-medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP-Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5faa69b834f41eb19b445688/fonts/notosanscjkjp-black.otf")
+    format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+.auto-animated div {
+  opacity: 0;
+  position: absolute;
+  --z-index: -1;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.hidden,
+.hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+.screen * {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.screen div {
+  text-size-adjust: none;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

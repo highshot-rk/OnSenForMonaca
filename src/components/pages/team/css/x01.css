@@ -1,0 +1,639 @@
+/* screen - x01 */
+.setting-right-next{
+  /* Button */
+
+  /* Auto Layout */
+  display: block;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 6px 12px;
+
+  position: absolute;
+  width: 56px;
+  /* height: 16px; */
+  left: 311px;
+  top: 3rem;
+
+  /* Primary / Blue */
+  background: #0089FF;
+  border-radius: 36px;
+  border: none;
+  font-family: "Noto Sans CJK JP-Medium";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  text-align: center;
+  margin-top: 8px;
+  margin-right: 5px;
+  color: #FFFFFF;
+}
+.setting-number{
+  padding: 18px 0;
+  border-bottom: solid 1px #00000022;
+}
+.container-my{
+  margin: 0 16px;
+  margin-top: 2.5rem;
+  padding-bottom: 1rem;
+  overflow: auto;
+  height: 90vh;
+}
+.setting-number-span{
+  /* レーン数 */
+  margin-left: 32px;
+  /* 14px JP */
+  font-family: "Noto Sans CJK JP-Medium";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* Neutral / Gray */
+  color: #707070;
+}
+
+.float-right-my{
+  float: right;
+}
+.right-next-circle{
+  /* background: #0089FF; */
+  position: relative;
+  /* display: block; */
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  padding: 0;
+  /* padding: 0 12px; */
+  width: 20px;
+  height: 20px;
+  /* margin: 0 16px; */
+  color: white;
+  font-size: 10px;
+  /* font-weight: bold; */
+}
+.right-next-circle-text{
+  position: absolute;
+  top: -6px;
+  left: 5.5px;
+}
+.right-next-12{
+  background: none;
+  border: none;
+}
+.div-relative-my{
+  position: relative;
+}
+.select-my{
+  padding: 10px 16px;
+  color: #F5F5F5;
+  border-radius: 30px;
+  width: 90%;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: black;
+  opacity: 0.87;
+  background: #70707033;
+}
+.label-my{
+  margin-top: 16px;
+  display: inline-block;
+  /* top: 10px; */
+}
+/*  */
+.x01 .systems-bars-status-bar {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 375px;
+}
+.x01 .text-input-my {
+  background-color: #0000000d;
+  border-radius: 4px;
+  border: none;
+  height: 47px;
+  /* padding-top: .5rem; */
+  border-radius: 30px;
+  padding: 0rem 1.5rem;
+  font-size: 14px;
+  /* left: 0px; */
+  mix-blend-mode: normal;
+  /* position: absolute; */
+  /* top: 26px; */
+  width: 317px;
+  font-family: "Noto Sans CJK JP-Medium" !important;
+}
+.x01 .text-input-my-textarea {
+  background-color: #00000000;
+  border-radius: 4px;
+  border: none;
+  height: fit-content;
+  /* padding-bottom: 1rem; */
+  /* padding-top: 1rem;
+  padding-left: 1.5rem; */
+  margin: auto;
+  font-size: 14px;
+  /* left: 0px; */
+  mix-blend-mode: normal;
+  /* position: absolute; */
+  /* top: 26px; */
+  resize: none;
+  width: 280px;
+  font-family: "Noto Sans CJK JP-Medium" !important;
+}
+.x01 .text-div-my-textarea {
+  background-color: #0000000d;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  height: calc(fit-content + 18px);
+  padding: 1rem 18px;
+  /* padding-top: 1rem;
+  padding-left: 1.5rem; */
+  font-size: 14px;
+  /* left: 0px; */
+  mix-blend-mode: normal;
+  /* position: absolute; */
+  /* top: 26px; */
+  width: 317px;
+  font-family: "Noto Sans CJK JP-Medium" !important;
+}
+input.text-input-my::placeholder {
+  /* color: #1c87c9; */
+  opacity: 0.5;
+}
+.x01 .text-input-9dP0ur {
+  background-color: #0000000d;
+  border-radius: 4px;
+  height: 47px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 26px;
+  width: 317px;
+}
+.x01 .textlabel-my {
+  /* background-color: transparent; */
+  height: auto;
+  /* margin-left: 0; */
+  letter-spacing: 0.00px;
+  /* line-height: 27px; */
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 100%;
+}
+.text-input--font14{
+  font-size: 14px !important;
+  /* position: relative !important; */
+  /* opacity: 0.5; */
+  font-family: "Noto Sans CJK JP-Medium" !important;
+}
+
+.x01 .button-long-primary-normal-my {
+  background-color: #0088ff;
+  border-radius: 30px;
+  height: 56px;
+  /* left: 28px; */
+  mix-blend-mode: normal;
+  /* opacity: 0.2; */
+  position: relative;
+  margin-top: 20vh;
+  padding-top: .8rem;
+  /* top: 566px; */
+  width: 320px;
+  border: 0;
+}
+.x01 .button-long-primary-normal-my-agree {
+  background-color: #0088ff;
+  border-radius: 30px;
+  height: 56px;
+  /* left: 28px; */
+  mix-blend-mode: normal;
+  opacity: 0.2;
+  position: relative;
+  margin-top: 10%;
+  padding-top: .5rem;
+  /* top: 566px; */
+  width: 320px;
+  border: 0;
+}
+.button-long-primary-normal-my-active{
+  opacity: 1 !important;
+}
+.bold-white-16px {
+  color: white;
+  font-family: "Noto Sans CJK JP-Bold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #0088ff;
+}
+#app > div.page__content > ons-navigator > ons-page:nth-child(2) > div.page__content > div > div > div > div.icon-arrow-left-C61RwL > div > ons-back-button > span.back-button__icon{
+  display: none !important;
+  background-color: aqua !important;
+}
+.button-div{
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+  margin-top: 30vh;
+}
+.toast-my{
+  margin-bottom: 8rem !important;
+}
+.medium-black-12px {
+  color: black;
+  font-family: "Noto Sans CJK JP-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.x01 .field-input-empty {
+  background-color: transparent;
+  cursor: pointer;
+  height: 73px;
+  margin-bottom: 2rem;
+  /* left: 24px; */
+  position: relative;
+  /* top: 111px; */
+  width: 317px;
+}
+.x01 .field-input-empty-textarea {
+  background-color: transparent;
+  cursor: pointer;
+  height: fit-content;
+  margin-bottom: 2rem;
+  /* left: 24px; */
+  position: relative;
+  /* top: 111px; */
+  width: 317px;
+}
+.x01 .arrow-left-vPUO2s {
+  background-color: transparent;
+  height: 1.8rem;
+  left: 6px;
+  position: relative;
+  top: .4rem;
+  transform: rotate(90.00deg);
+  width: 12px;
+}
+.textarea-height{
+  /* height: 70rem; */
+  resize: none;
+}
+.checkbox__checkmark:before{
+  border: solid 2px black !important;
+}
+.checkbox-agree{
+  float: right;
+  margin-left: .1rem;
+}
+.image-C61RwL{
+  margin-top: 15rem;
+}
+.mailaddressmailcom-C61RwL{
+  /* mailaddress@mail.com */
+  position: relative;
+  width: 217px;
+  height: 30px;
+  /* left: 79px; */
+  /* top: 397px; */
+  text-align: center;
+  /* 20px EN */
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  border: none;
+  background-color: #00000000;
+  /* identical to box height, or 30px */
+  text-align: center;
+  margin-top: 10%;
+  /* Primary / Blue */
+  color: #0089FF;
+}
+.textlabel-C61RwL{
+  /* にメールを送信しました。 届いたメールから認証を行ってください。 */
+
+  position: relative;
+  width: 265px;
+  height: 42px;
+  /* left: 55px; */
+  /* top: 439px; */
+
+  /* 14px JP */
+  font-family: "Noto Sans CJK JP-Medium";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 60%;
+  /* Neutral / Black */
+  color: #303235;
+}
+.practice-toolbar {
+  margin: 0 0 0.5rem 0;
+  padding: 3rem 0 0 0;
+  text-align: center;
+  align-items: center;
+  border-radius: 0;
+  background-color: white;
+  border-bottom: solid 3px #EEEEEE66;
+  height: 88px;
+}
+/* screen - x01 */
+.x01 .systems-bars-status-bar {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 375px;
+}
+.x01 .text-input-my {
+  background-color: #0000000d;
+  border-radius: 4px;
+  border: none;
+  height: 47px;
+  /* padding-top: .5rem; */
+  padding: 0rem 1.5rem;
+  font-size: 14px;
+  /* left: 0px; */
+  mix-blend-mode: normal;
+  /* position: absolute; */
+  /* top: 26px; */
+  width: 317px;
+  font-family: "Noto Sans CJK JP-Medium" !important;
+}
+.x01 .text-input-my-textarea {
+  background-color: #00000000;
+  border-radius: 4px;
+  border: none;
+  height: fit-content;
+  /* padding-bottom: 1rem; */
+  /* padding-top: 1rem;
+  padding-left: 1.5rem; */
+  margin: auto;
+  font-size: 14px;
+  /* left: 0px; */
+  mix-blend-mode: normal;
+  /* position: absolute; */
+  /* top: 26px; */
+  resize: none;
+  width: 280px;
+  font-family: "Noto Sans CJK JP-Medium" !important;
+}
+.x01 .text-div-my-textarea {
+  background-color: #0000000d;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  height: calc(fit-content + 18px);
+  padding: 1rem 18px;
+  /* padding-top: 1rem;
+  padding-left: 1.5rem; */
+  font-size: 14px;
+  /* left: 0px; */
+  mix-blend-mode: normal;
+  /* position: absolute; */
+  /* top: 26px; */
+  width: 317px;
+  font-family: "Noto Sans CJK JP-Medium" !important;
+}
+input.text-input-my::placeholder {
+  /* color: #1c87c9; */
+  opacity: 0.5;
+}
+.x01 .text-input-9dP0ur {
+  background-color: #0000000d;
+  border-radius: 4px;
+  height: 47px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 26px;
+  width: 317px;
+}
+.x01 .textlabel-my {
+  /* background-color: transparent; */
+  height: auto;
+  /* left: calc(50% - 72px); */
+  margin-top: 0rem;
+  margin-left: 0;
+  margin: auto;
+  letter-spacing: 0.00px;
+  /* line-height: 27px; */
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  /* text-shadow: 0px 0px 20px #00000080; */
+  /* top: 54px; */
+  white-space: nowrap;
+  width: auto;
+}
+.text-input--font14{
+  font-size: 14px !important;
+  /* opacity: 0.5; */
+  font-family: "Noto Sans CJK JP-Medium" !important;
+}
+.x01 .button-long-primary-normal-my {
+  background-color: #0088ff;
+  border-radius: 30px;
+  height: 56px;
+  /* left: 28px; */
+  mix-blend-mode: normal;
+  /* opacity: 0.2; */
+  position: relative;
+  margin-top: 45%;
+  padding-top: .5rem;
+  /* top: 566px; */
+  width: 320px;
+  border: 0;
+}
+.x01 .button-long-primary-normal-my-agree {
+  background-color: #0088ff;
+  border-radius: 30px;
+  height: 56px;
+  /* left: 28px; */
+  mix-blend-mode: normal;
+  /* opacity: 0.2; */
+  position: relative;
+  margin-top: 10%;
+  padding-top: .5rem;
+  /* top: 566px; */
+  width: 320px;
+  border: 0;
+}
+/* .button-long-primary-normal-my-active{
+  opacity: 0.2 !important;
+} */
+.bold-white-16px {
+  color: white;
+  font-family: "Noto Sans CJK JP-Bold";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #0088ff;
+}
+#app > div.page__content > ons-navigator > ons-page:nth-child(2) > div.page__content > div > div > div > div.icon-arrow-left-C61RwL > div > ons-back-button > span.back-button__icon{
+  display: none !important;
+  background-color: aqua !important;
+}
+.button-div{
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+.medium-black-12px {
+  color: black;
+  font-family: "Noto Sans CJK JP-Medium";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.x01 .field-input-empty {
+  background-color: transparent;
+  cursor: pointer;
+  height: 73px;
+  margin-bottom: 2rem;
+  /* left: 24px; */
+  position: relative;
+  /* top: 111px; */
+  width: 317px;
+}
+.x01 .field-input-empty-textarea {
+  background-color: transparent;
+  cursor: pointer;
+  height: fit-content;
+  margin-bottom: 2rem;
+  /* left: 24px; */
+  position: relative;
+  /* top: 111px; */
+  width: 317px;
+}
+.x01 .arrow-left-vPUO2s {
+  background-color: transparent;
+  height: 1.8rem;
+  left: 6px;
+  position: relative;
+  top: .4rem;
+  transform: rotate(90.00deg);
+  width: 12px;
+}
+.textarea-height{
+  /* height: 70rem; */
+  resize: none;
+}
+.checkbox__checkmark:before{
+  border: solid 2px black !important;
+}
+.checkbox-agree{
+  float: right;
+  margin-left: .1rem;
+}
+.image-C61RwL{
+  margin-top: 15rem;
+}
+.mailaddressmailcom-C61RwL{
+  /* mailaddress@mail.com */
+  position: relative;
+  width: 217px;
+  height: 30px;
+  /* left: 79px; */
+  /* top: 397px; */
+  text-align: center;
+  /* 20px EN */
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  border: none;
+  background-color: #00000000;
+  /* identical to box height, or 30px */
+  text-align: center;
+  margin-top: 10%;
+  /* Primary / Blue */
+  color: #0089FF;
+}
+.textlabel-C61RwL{
+  /* にメールを送信しました。 届いたメールから認証を行ってください。 */
+
+  position: relative;
+  width: 265px;
+  height: 42px;
+  /* left: 55px; */
+  /* top: 439px; */
+
+  /* 14px JP */
+  font-family: "Noto Sans CJK JP-Medium";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 60%;
+  /* Neutral / Black */
+  color: #303235;
+}
+.practice-toolbar {
+  margin: 0 0 0.5rem 0;
+  padding: 3rem 0 0 0;
+  text-align: center;
+  align-items: center;
+  border-radius: 0;
+  background-color: white;
+  /* border-bottom: solid 3px #EEEEEE; */
+  height: 88px;
+}
+.mx-auto{
+  margin: auto;
+}
+.mt-5{
+  margin-top: 2.5rem;
+}
+.mt-1{
+  margin-top: .5rem;
+}
+.ml-2{
+  margin-left: 1.2rem;
+}
+.ml-0{
+  margin-left: 0;
+}
+.mr-2{
+  margin-right: 1.2rem;
+}
+.mb-2{
+  margin-bottom: 16px;
+}
+.mb-1{
+  margin-bottom: 8px;
+}
+.pl-2{
+  padding-left: .6rem;
+}
+.pt-2{
+  padding-top: 24px;
+}
+.mt-2{
+  margin-top: 16px;
+}
+.w-2{
+  width: 8rem;
+}

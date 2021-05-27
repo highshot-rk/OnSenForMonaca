@@ -1,0 +1,1072 @@
+:root {
+  --alabaster: #fafafacc;
+  --alice-blue: #f1f7fc;
+  --azure-radiance: #0088ff;
+  --azure-radiance-2: #007aff;
+  --azure-radiance-3: #0088ff33;
+  --black: #000000;
+  --black-2: #00000066;
+  --black-3: #0000000d;
+  --black-4: #000000bf;
+  --black-5: #00000033;
+  --blush: #e45a8c;
+  --coconut: #fcfcfe;
+  --concrete: #f2f2f2cc;
+  --concrete-2: #f2f2f2;
+  --cultured-pearl: #f5f5f5;
+  --dove-gray: #6f6f6f;
+  --elephant: #183342;
+  --gamboge: #e89a03;
+  --havelock-blue: #5496d7;
+  --hint-of-red: #f9f9f9;
+  --log-cabin: #222222;
+  --mine-shaft: #303235;
+  --mine-shaft-2: #303235c7;
+  --mine-shaft-3: #303135;
+  --mist-gray: #c4c4c4;
+  --pomegranate: #ea3223;
+  --porcelain: #eff3f6;
+  --quill-gray: #d3d3d3;
+  --razzmatazz: #e22b6d;
+  --red: #ea225e;
+  --regent-gray: #8293a2;
+  --regent-gray-2: #8293a333;
+  --rolling-stone: #7676801f;
+  --romance: #fdfdfd;
+  --scooter: #29b9e6;
+  --scooter-2: #29b9e7;
+  --ship-gray: #3c3c435c;
+  --ship-gray-2: #3c3c4399;
+  --silver: #bcbcbc;
+  --west-side: #ff8e0a;
+  --white: #ffffff;
+  --white-2: #ffffffcc;
+  --white-3: #ffffff33;
+  --white-4: #ffffffc7;
+  --white-5: #ffffffeb;
+  --yellow-sea: #e8a803;
+
+  --font-size-27_8px: 27.8px;
+  --font-size-l: 13px;
+  --font-size-m: 12px;
+  --font-size-s: 11px;
+  --font-size-xl: 14px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 16px;
+  --font-size-xxs: 8px;
+  --font-size-xxxl: 17px;
+  --font-size-xxxxl: 18px;
+  --font-size-xxxxxl: 20px;
+  --font-size-xxxxxxl: 22px;
+  --font-size-xxxxxxxl: 22.5px;
+  --font-size-xxxxxxxxl: 24px;
+  --font-size-xxxxxxxxxl: 28px;
+  --font-size-xxxxxxxxxxl: 32px;
+  --font-size-xxxxxxxxxxxl: 36px;
+  --font-size-xxxxxxxxxxxxl: 40px;
+  --font-size-xxxxxxxxxxxxxl: 64px;
+
+  --font-family-all_round_gothic-bold: "All Round Gothic-Bold", Helvetica;
+  --font-family-noto_sans_cjk_jp-black: "Noto Sans CJK JP-Black", Helvetica;
+  --font-family-noto_sans_cjk_jp-bold: "Noto Sans CJK JP-Bold", Helvetica;
+  --font-family-noto_sans_cjk_jp-demilight: "Noto Sans CJK JP-DemiLight", Helvetica;
+  --font-family-noto_sans_cjk_jp-medium: "Noto Sans CJK JP-Medium", Helvetica;
+  --font-family-noto_sans_cjk_jp-regular: "Noto Sans CJK JP-Regular", Helvetica;
+  --font-family-noto_sans_jp: "Noto Sans JP", Helvetica;
+  --font-family-sf_pro_display-black: "SF Pro Display-Black", Helvetica;
+  --font-family-sf_pro_display-bold: "SF Pro Display-Bold", Helvetica;
+  --font-family-sf_pro_display-regular: "SF Pro Display-Regular", Helvetica;
+  --font-family-sf_pro_display-semibold: "SF Pro Display-Semibold", Helvetica;
+  --font-family-sf_pro_text-bold: "SF Pro Text-Bold", Helvetica;
+  --font-family-sf_pro_text-heavy: "SF Pro Text-Heavy", Helvetica;
+  --font-family-sf_pro_text-medium: "SF Pro Text-Medium", Helvetica;
+  --font-family-sf_pro_text-mediumitalic: "SF Pro Text-MediumItalic", Helvetica;
+  --font-family-sf_pro_text-regular: "SF Pro Text-Regular", Helvetica;
+  --font-family-sf_pro_text-semibold: "SF Pro Text-Semibold", Helvetica;
+}
+.sfprodisplay-regular-normal-dove-gray-8px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-bold-havelock-blue-14px {
+  color: var(--havelock-blue);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosansjp-normal-regent-gray-12px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-noto_sans_jp);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-regular-normal-havelock-blue-14px {
+  color: var(--havelock-blue);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-regular-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-regular-normal-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosansjp-normal-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_jp);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-bold-elephant-12px {
+  color: var(--elephant);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-medium-mine-shaft-12px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.notosansjp-bold-mine-shaft-18px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_jp);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-mine-shaft-14px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprotext-bold-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-mine-shaft-12px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-demi-light-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_cjk_jp-demilight);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 300;
+}
+.notosanscjkjp-medium-regent-gray-12px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-regular-normal-azure-radiance-16px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-mine-shaft-14px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-regular-normal-mine-shaft-12px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-regent-gray-14px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-regular-normal-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosansjp-normal-azure-radiance-16px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_jp);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-dove-gray-12px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.notosanscjkjp-medium-dove-gray-10px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-regular-normal-regent-gray-12px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-bold-white-22px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xxxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-regent-gray-12px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-bold-mine-shaft-22px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xxxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.sfprodisplay-bold-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-regular-normal-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-noto_sans_cjk_jp-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-bold-azure-radiance-16px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-black-22-5px {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxxxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-black-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_cjk_jp-black);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 900;
+}
+.sfprotext-regular-normal-havelock-blue-12px {
+  color: var(--havelock-blue);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-normal-black-17px {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro_text-semibold);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-azure-radiance-16px {
+  color: var(--azure-radiance-2);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-regular-normal-romance-12px {
+  color: var(--romance);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-regular-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-regular-normal-west-side-8px {
+  color: var(--west-side);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-medium-white-40px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_text-medium);
+  font-size: var(--font-size-xxxxxxxxxxxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-regular-normal-razzmatazz-8px {
+  color: var(--razzmatazz);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprotext-regular-normal-dove-gray-10px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-bold-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprodisplay-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-regular-normal-azure-radiance-8px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-bold-mine-shaft-14px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-bold-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprodisplay-bold-mine-shaft-18px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-pomegranate-16px {
+  color: var(--pomegranate);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+.text-bold-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-medium-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.notosanscjkjp-regular-normal-yellow-sea-8px {
+  color: var(--yellow-sea);
+  font-family: var(--font-family-noto_sans_cjk_jp-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosansjp-normal-pomegranate-16px {
+  color: var(--pomegranate);
+  font-family: var(--font-family-noto_sans_jp);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-bold-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-bold-mine-shaft-18px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-bold-dove-gray-16px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-medium-azure-radiance-14px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-bold-azure-radiance-36px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xxxxxxxxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-medium-havelock-blue-10px {
+  color: var(--havelock-blue);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-regular-normal-regent-gray-11px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-azure-radiance-17px {
+  color: var(--azure-radiance-2);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.notosanscjkjp-bold-havelock-blue-12px {
+  color: var(--havelock-blue);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-medium-log-cabin-14px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprotext-regular-normal-dove-gray-14px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-demi-light-azure-radiance-16px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-demilight);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 300;
+}
+.sfprodisplay-regular-normal-quill-gray-16px {
+  color: var(--quill-gray);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-regular-normal-azure-radiance-20px {
+  color: var(--azure-radiance-2);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-bold-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-bold-azure-radiance-12px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-bold-azure-radiance-16px {
+  color: var(--azure-radiance-2);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprodisplay-normal-azure-radiance-20px {
+  color: var(--azure-radiance-2);
+  font-family: var(--font-family-sf_pro_display-semibold);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-bold-azure-radiance-24px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xxxxxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-demi-light-elephant-12px {
+  color: var(--elephant);
+  font-family: var(--font-family-noto_sans_cjk_jp-demilight);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+.notosanscjkjp-regular-normal-havelock-blue-16px {
+  color: var(--havelock-blue);
+  font-family: var(--font-family-noto_sans_cjk_jp-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-havelock-blue-14px {
+  color: var(--havelock-blue);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-yellow-sea-10px {
+  color: var(--yellow-sea);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-regular-normal-regent-gray-16px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-bold-mine-shaft-12px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-medium-regent-gray-12px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-sf_pro_text-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprotext-bold-mine-shaft-24px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xxxxxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-bold-silver-16px {
+  color: var(--silver);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-regular-normal-azure-radiance-16px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-bold-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-azure-radiance-16px-2 {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-mine-shaft-10px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+.notosanscjkjp-medium-azure-radiance-12px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-regular-normal-azure-radiance-12px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-elephant-16px {
+  color: var(--elephant);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-black-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-black);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 900;
+}
+.sfprotext-regular-normal-ship-gray-17px {
+  color: var(--ship-gray-2);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-bold-azure-radiance-22px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-azure-radiance-12px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-azure-radiance-10px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+.notosanscjkjp-medium-elephant-14px {
+  color: var(--elephant);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprodisplay-regular-normal-mine-shaft-12px-2 {
+  color: var(--mine-shaft-3);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-regular-normal-red-8px {
+  color: var(--red);
+  font-family: var(--font-family-noto_sans_cjk_jp-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-regular-normal-mine-shaft-14px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprodisplay-regular-normal-pomegranate-20px {
+  color: var(--pomegranate);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-bold-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-yellow-sea-12px {
+  color: var(--yellow-sea);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-elephant-12px {
+  color: var(--elephant);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.allroundgothic-bold-white-27-8px {
+  color: var(--white);
+  font-family: var(--font-family-all_round_gothic-bold);
+  font-size: var(--font-size-27_8px);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprotext-regular-normal-scooter-14px {
+  color: var(--scooter);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-gamboge-14px {
+  color: var(--gamboge);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-blush-14px {
+  color: var(--blush);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-regular-normal-azure-radiance-14px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-yellow-sea-14px {
+  color: var(--yellow-sea);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.notosanscjkjp-demi-light-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-noto_sans_cjk_jp-demilight);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 300;
+}
+.sfprodisplay-bold-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_display-bold);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.sfprodisplay-regular-normal-dove-gray-10px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-sf_pro_display-regular);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-havelock-blue-12px {
+  color: var(--havelock-blue);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprotext-regular-normal-regent-gray-14px {
+  color: var(--regent-gray);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.sfprotext-mediumitalic-medium-mine-shaft-24px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-sf_pro_text-mediumitalic);
+  font-size: var(--font-size-xxxxxxxxl);
+  font-style: italic;
+  font-weight: 500;
+}
+.notosanscjkjp-medium-black-14px-2 {
+  color: var(--black-5);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+.notosanscjkjp-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosansjp-normal-mine-shaft-18px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-noto_sans_jp);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-medium-pomegranate-12px {
+  color: var(--pomegranate);
+  font-family: var(--font-family-noto_sans_cjk_jp-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.sfprotext-bold-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-sf_pro_text-bold);
+  font-size: var(--font-size-xxxxxxxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.notosanscjkjp-black-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-noto_sans_cjk_jp-black);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 900;
+}
+.notosanscjkjp-regular-normal-azure-radiance-12px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.notosanscjkjp-bold-azure-radiance-24px {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-noto_sans_cjk_jp-bold);
+  font-size: var(--font-size-xxxxxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.border-1px-azure-radiance {
+  border: 1px solid var(--azure-radiance);
+}
+.border-1px-white {
+  border: 1px solid var(--white);
+}
+.border-2px-scooter {
+  border: 2px solid var(--scooter);
+}
+.border-1px-havelock-blue {
+  border: 1px solid var(--havelock-blue);
+}
+.border-2px-havelock-blue {
+  border: 2px solid var(--havelock-blue);
+}
+.border-1px-pomegranate {
+  border: 1px solid var(--pomegranate);
+}
+.border-2px-gamboge {
+  border: 2px solid var(--gamboge);
+}
+.border-4px-azure-radiance {
+  border: 4px solid var(--azure-radiance);
+}
+.border-2px-blush {
+  border: 2px solid var(--blush);
+}
+.border-1px-yellow-sea {
+  border: 1px solid var(--yellow-sea);
+}
+.border-1px-quill-gray {
+  border: 1px solid var(--quill-gray);
+}

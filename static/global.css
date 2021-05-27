@@ -1,0 +1,172 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"); */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700");
+
+@font-face {
+  font-family: "SF Pro Display-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/5b7d556a58482d00094a3c58/SF-Pro-Display-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Display-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/608ab7aef68e88411d2700be/fonts/sf-pro-display-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Text-Semibold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/608b68c6d56a83496c2c859a/fonts/sf-pro-display-semibold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Text-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6008a098639e61868d22fa86/fonts/sf-pro-text-regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5faa69b834f41eb19b445688/fonts/notosanscjkjp-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP-Medium";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5faa69b834f41eb19b445688/fonts/notosanscjkjp-medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6024a1fa547fa7cf23f9aca5/fonts/notosanscjkjp-regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SF Pro Text-Medium";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/605a4daa8cdfdd614c2d8ffd/fonts/fontsfree-net-sfprotext-medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP-Black";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5faa69b834f41eb19b445688/fonts/notosanscjkjp-black.otf")
+    format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.back-button__icon{
+  visibility: hidden;
+  width:0px;
+  height: 0px;
+}
+.toast__message{
+  text-align: center !important;
+}
+
+.text-font-32 {
+  font-size: 32px;
+}
+.text-font-24 {
+  font-size: 24px;
+}
+.text-font-18 {
+  font-size: 18px;
+}
+.text-font-16 {
+  font-size: 16px;
+}
+.text-font-14 {
+  font-size: 14px;
+}
+.text-font-12 {
+  font-size: 12px;
+}
+.toast--failed {
+  background: none !important;
+  margin: 0 3rem 11rem 3rem !important;
+}
+.toast--failed__message {
+  font-family: "Noto Sans CJK JP";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 150%;
+  text-align: center;
+  color: #EA3223 !important;
+}
+.toast--my-toast{
+  background: rgba(48, 50, 53, 0.78) !important;
+  margin: 0 1rem 6rem 1rem !important;
+}
+.toast--my-toast__message{
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.toast--my-toast-higher{
+  background: rgba(48, 50, 53, 0.78) !important;
+  margin: 0 1rem 10rem 1rem !important;
+}
+.toast--my-toast-higher__message{
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.dialog.dialog--qr-modal{
+  width: 101vw;
+  height: 60vh;
+  top: 70.5vh !important;
+  margin: 0 !important;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  background-color: white;
+}
+.tool_bottom{
+  background-color: white !important;
+  height: 5rem;
+  padding: 0;
+  box-shadow: 0 -1px 7px 5px #eeeeee55;
+}
+.screen * {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.screen div {
+  text-size-adjust: none;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+
+.dialog.dialog--select-modal {
+  width: 101vw;
+  height: 10vh;
+  top: 90vh !important;
+  margin: 0 !important;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  background-color: white;
+}
+
+.dialog.dialog--select-modal1 {
+  width: 101vw;
+  height: 20vh;
+  top: 88vh !important;
+  margin: 0 !important;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  background-color: white;
+}
