@@ -1,13 +1,13 @@
 <template>
   <v-ons-page>
     <div>
-        <ChildPhoto></ChildPhoto>
+        <child-photo></child-photo>
     </div>
   </v-ons-page>
 </template>
 
 <script>
-import ChildPhoto from "./component/ChildPhoto";
+import ChildPhoto from './component/ChildPhoto.vue';
 
 export default {
     name: "addchild",

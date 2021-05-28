@@ -14,7 +14,7 @@
                 <v-ons-toolbar-button icon="sliders-h, font-awesome:sliders-h" style="opacity: 0.9"></v-ons-toolbar-button>
             </div>
         </v-ons-toolbar>
-        <v-ons-card class="card-item" style="margin-top: 2.9rem; padding-top: 0.8rem">
+        <div style="margin-top: 0rem; padding-top: 0.8rem; text-align: center;">
             <!--clock :time="time" color="#0089FF" size="280px"></clock-->
             <svg width="276" height="276" viewBox="0 0 276 276" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="138" cy="138" r="136" stroke="#0089FF" stroke-width="4"/>
@@ -34,13 +34,15 @@
                 <line x1="138" y1="136" :x2="''+(138+102*Math.sin(time_round))" :y2="''+(34+102*(1-Math.cos(time_round)))" stroke="#EA3223" stroke-width="4" stroke-linecap="round"/>
             </svg>
             <p class="mt-2 mb-2 clock-text">{{time_count.type===0?'選択した秒からスタート':'カウントダウン中！'}}</p>
-            <div class="clock-select mx-auto">
-                <v-ons-button v-for="n in 6" :key="n" class="clock-select-each" v-bind:class="{'clock-started': time_count.type===n}" :disabled="time_count.type!==0&&time_count.type!==n" :style="n%3!==0&&'margin-right: .5rem'" @click="time_start(n)">{{time_count.type===n?'リセット':n*10}}</v-ons-button>
+            <div class="mx-auto">
+                <div class="clock-select mx-auto" style="width: 90vw">
+                    <v-ons-button v-for="n in 6" :key="n" class="clock-select-each" v-bind:class="{'clock-started': time_count.type===n}" :disabled="time_count.type!==0&&time_count.type!==n" style='margin-right: .1rem' :style="time_count.type===n?'padding: 0px 0px':'padding: 5px 8px'" @click="time_start(n)">{{time_count.type===n?'リセット':n*10}}</v-ons-button>
+                </div>
             </div>
-            <table class="mx-auto" style="text-align: center;width: 100%; padding-bottom: 3rem;">
-                <tr class="clock-table-th">
-                    <td>セット</td>
-                    <td>距離</td>
+            <table class="mx-auto" style="text-align: center;width: 100%; padding-bottom: 3rem;border-spacing: unset">
+                <tr class="clock-table-th" style="border: 0">
+                    <td style="border: none">セット</td>
+                    <td style="border: none">距離</td>
                     <td>本数</td>
                     <td>サイクル</td>
                     <td>セット間</td> 
@@ -53,7 +55,7 @@
                     <td>0</td> 
                 </tr>
             </table>
-        </v-ons-card>
+        </div>
     </v-ons-page>
 </template>
 
@@ -129,7 +131,7 @@ export default {
         align-items: center;
         border-radius: 0;
         background-color: white;
-        height: 88px;
+        /* height: 88px; */
     }
     .toolbar-title {
         font-family: "Noto Sans JP";
@@ -214,14 +216,15 @@ export default {
         display: flex;
         flex-wrap: wrap;
         align-items: stretch;
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
+        place-content: space-around;
     }
     .clock-select-each{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 8px 12px;
+        padding: 5px 8px;
 
         background: #FFFFFF;
         /* Primary / Blue */
@@ -242,9 +245,9 @@ export default {
         flex: none;
         order: 0;
         flex-grow: 0;
-        margin: 0px 0px;
-        margin-bottom: 1rem;
-        width: 30%;
+        /* margin: 0px 0px; */
+        margin-bottom: .8rem;
+        width: 29%;
     }
     .clock-table-th{
         padding: 4px 20px;

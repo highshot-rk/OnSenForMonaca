@@ -124,7 +124,7 @@ created() {
         /* position: absolute; */
         /* top: 26px; */
         resize: none;
-        width: 280px;
+        width: 90vw;
         font-family: "Noto Sans CJK JP-Medium" !important;
     }
 </style>

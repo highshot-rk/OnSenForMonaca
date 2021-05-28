@@ -14,7 +14,7 @@
                     </ons-toolbar>
                 </div>
                 <div class="x01 screen">
-                    <div class="mt-5 field-input-empty mx-auto" style="margin-top: 6rem">
+                    <div class="mt-5 field-input-empty mx-auto" style="margin-top: 4rem">
                         <div class="input-label medium-black-12px mb-1">メールアドレスを入力</div>
                         <input class="text-input-my" type="email" modifier="font14" placeholder="メールアドレス" v-model="name" validated>
                     </div>
@@ -86,7 +86,7 @@ created() {
         position: absolute;
         text-align: center;
         /* text-shadow: 0px 0px 20px #00000080; */
-        top: 21rem;
+        top: 19rem;
         white-space: nowrap;
         width: auto;
     }   

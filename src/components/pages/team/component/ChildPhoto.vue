@@ -86,9 +86,9 @@
                 text-align: center;
                 color: #303235;'>写真を設定</span>"
         >
-          <v-ons-action-sheet-button icon="md-square-o" @click="show_got_data"><span>カメラローるから選ぶ</span></v-ons-action-sheet-button>
-          <v-ons-action-sheet-button icon="md-square-o" modifier="destructive" @click="show_camera"><span class="blue">カメラを起動</span></v-ons-action-sheet-button>
-          <v-ons-action-sheet-button icon="md-square-o" @click="close_modal"><span>キャンセル</span></v-ons-action-sheet-button>
+          <v-ons-action-sheet-button @click="show_got_data"><span>カメラローるから選ぶ</span></v-ons-action-sheet-button>
+          <v-ons-action-sheet-button modifier="destructive" @click="show_camera"><span class="blue">カメラを起動</span></v-ons-action-sheet-button>
+          <v-ons-action-sheet-button @click="close_modal"><span>キャンセル</span></v-ons-action-sheet-button>
         </v-ons-action-sheet>
       </div>
       <v-ons-alert-dialog modifier="rowfooter"
@@ -195,13 +195,13 @@ export default {
     justify-content: center;
   }
   .b_btn_bt{
-    width: 320px;
+    width: 84.5vw;
     padding: 16px 96px;
     background: #0089FF;
     border-radius: 30px;
   }
   .b_btn_bt_link{
-    width: 320px;
+    width: 84.5vw;
     padding: 14px 36px;
     background: #29B9E7;
     border-radius: 30px;

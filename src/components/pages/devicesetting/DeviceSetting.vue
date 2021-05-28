@@ -2,7 +2,7 @@
   <v-ons-page>
     <div>
       <div class="mx-auto">
-        <v-ons-toolbar class="practice-toolbar" style="margin-top: 2rem">
+        <v-ons-toolbar class="practice-toolbar" style="margin-top: 0rem">
           <div class="left">
             <v-ons-back-button style="color: #5496D7">
               <v-ons-icon size="1rem" icon="md-close, material:md-close"></v-ons-icon>
@@ -24,7 +24,7 @@
         </v-ons-back-button>
         <span class="h_title">プロフィールを設定して始める</span>
       </div> -->
-      <v-ons-card class="card-item" style="margin-top: 2.9rem; padding-top: 0.2rem; background-color: #EFEFEF;">
+      <v-ons-card class="card-item" style="margin-top: 3.9rem; padding-top: 0.2rem; background-color: #EFEFEF;">
         <div class="paragraph" style="margin-top: 2rem">
           <img src="/static/images/on.png" alt="Smiley face" style="float:right;width:60px;height:60px;">
           <p style="vertical-align: middle;padding-right: 5rem">1. スピーカー機器の電源を入れてください。</p>
@@ -46,7 +46,7 @@
           </p>
         </div>
         <div class="button-div" style="margin-top: 1rem;">
-          <v-ons-button class="bold-white-16px-white mx-auto button-long-primary-normal-my mt-2" style="border-radius: 30px;width: 320px;padding: 14px 96px;">システム環境設定を開く</v-ons-button>
+          <v-ons-button class="bold-white-16px-white mx-auto button-long-primary-normal-my mt-2" style="border-radius: 30px;width: 84.5vw;padding: 14px 96px;">システム環境設定を開く</v-ons-button>
         </div>
       </v-ons-card>
     </div>
@@ -99,14 +99,15 @@ export default {
     font-size: 14px;
     line-height: 150%;
     color: #303235;
-    padding: .6rem;
+    padding: .3rem;
+    margin-top: .3rem;
   }
   .card-item {
     margin: 0.2rem 0 0 0;
     width: 100%;
     padding: 0.5rem;
     border-radius: 0.1rem;
-    height: calc(100vh - 2.9rem);
+    height: calc(100vh - 3.9rem);
     overflow: auto;
   }
   .bold-white-16px-white{
