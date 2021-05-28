@@ -11,7 +11,7 @@
                 <span class="toolbar-title textlabel-my text-bold-black-18px">参加者</span>
             </div>
         </v-ons-toolbar>
-        <v-ons-card class="card-item" style="margin-top: 2.9rem; padding-top: 0.2rem">
+        <div style="margin-top: 0rem; padding-top: 0rem">
             <v-ons-list style="background:none">
                 <div class="player-list-title" modifier="nodivider" style="margin-top: 1rem;margin-left: 90%;opacity: 0.6;">
                     出席
@@ -29,7 +29,7 @@
                     </v-ons-checkbox>
                 </v-ons-list-item>
             </v-ons-list>
-        </v-ons-card>
+        </div>
     </v-ons-page>
 </template>
 
@@ -84,7 +84,7 @@ export default {
         align-items: center;
         border-radius: 0;
         background-color: white;
-        height: 88px;
+        /* height: 88px; */
     }
     .toolbar-title {
         font-family: "Noto Sans JP";

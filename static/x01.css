@@ -46,8 +46,8 @@
   margin: 0 16px;
   margin-top: 2.5rem;
   padding-bottom: 1rem;
-  overflow: auto;
-  height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .setting-number-span{
   /* レーン数 */
@@ -89,32 +89,6 @@
   display: inline-block;
   /* top: 10px; */
 }
-/*  */
-.x01 .systems-bars-status-bar {
-  background-color: transparent;
-  height: 44px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: relative;
-  top: 0px;
-  width: 375px;
-}
-.x01 .text-input-my {
-  background-color: #0000000d;
-  border-radius: 4px;
-  border: none;
-  height: 47px;
-  /* padding-top: .5rem; */
-  border-radius: 30px;
-  padding: 0rem 1.5rem;
-  font-size: 14px;
-  /* left: 0px; */
-  mix-blend-mode: normal;
-  /* position: absolute; */
-  /* top: 26px; */
-  width: 317px;
-  font-family: "Noto Sans CJK JP-Medium" !important;
-}
 .x01 .text-input-my-textarea {
   background-color: #00000000;
   border-radius: 4px;
@@ -133,15 +107,13 @@
   width: 280px;
   font-family: "Noto Sans CJK JP-Medium" !important;
 }
-.x01 .text-div-my-textarea {
+.x01 .text-input-my {
   background-color: #0000000d;
   border-radius: 4px;
   border: none;
-  text-align: center;
-  height: calc(fit-content + 18px);
-  padding: 1rem 18px;
-  /* padding-top: 1rem;
-  padding-left: 1.5rem; */
+  height: 47px;
+  /* padding-top: .5rem; */
+  padding: 0rem 1.5rem;
   font-size: 14px;
   /* left: 0px; */
   mix-blend-mode: normal;
@@ -167,55 +139,13 @@ textarea::placeholder{
   mix-blend-mode: normal;
   position: absolute;
   top: 26px;
-  width: 317px;
-}
-.x01 .textlabel-my {
-  /* background-color: transparent; */
-  height: auto;
-  /* margin-left: 0; */
-  letter-spacing: 0.00px;
-  /* line-height: 27px; */
-  mix-blend-mode: normal;
-  position: relative;
-  text-align: center;
-  white-space: nowrap;
-  width: 100%;
+  width: 84.5vw;
 }
 .text-input--font14{
   font-size: 14px !important;
   /* position: relative !important; */
   /* opacity: 0.5; */
   font-family: "Noto Sans CJK JP-Medium" !important;
-}
-
-.x01 .button-long-primary-normal-my {
-  background-color: #0088ff;
-  border-radius: 30px;
-  height: 56px;
-  /* left: 28px; */
-  mix-blend-mode: normal;
-  /* opacity: 0.2; */
-  position: relative;
-  margin-top: 20vh;
-  padding-top: .8rem;
-  /* top: 566px; */
-  width: 320px;
-  border: 0;
-}
-.button-long-primary-normal-my-active{
-  opacity: 1 !important;
-}
-.bold-white-16px {
-  color: white;
-  font-family: "Noto Sans CJK JP-Bold";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  background-color: #0088ff;
-}
-#app > div.page__content > ons-navigator > ons-page:nth-child(2) > div.page__content > div > div > div > div.icon-arrow-left-C61RwL > div > ons-back-button > span.back-button__icon{
-  display: none !important;
-  background-color: aqua !important;
 }
 .toast-my{
   margin-bottom: 8rem !important;
@@ -242,17 +172,7 @@ textarea::placeholder{
   /* left: 24px; */
   position: relative;
   /* top: 111px; */
-  width: 317px;
-}
-.x01 .field-input-empty-textarea {
-  background-color: transparent;
-  cursor: pointer;
-  height: fit-content;
-  margin-bottom: 2rem;
-  /* left: 24px; */
-  position: relative;
-  /* top: 111px; */
-  width: 317px;
+  width: 84.5vw;
 }
 .x01 .arrow-left-vPUO2s {
   background-color: transparent;
@@ -264,18 +184,11 @@ textarea::placeholder{
   width: 12px;
 }
 .textarea-height{
-  /* height: 70rem; */
   resize: none;
 }
-/* .checkbox__checkmark:before{
-  border: solid 0px black !important;
-} */
 .checkbox-agree{
   float: right;
   margin-left: .1rem;
-}
-.image-C61RwL{
-  margin-top: 15rem;
 }
 .mailaddressmailcom-C61RwL{
   /* mailaddress@mail.com */
@@ -321,16 +234,6 @@ textarea::placeholder{
   /* Neutral / Black */
   color: #303235;
 }
-.practice-toolbar {
-  margin: 0 0 0.5rem 0;
-  padding: 3rem 0 0 0;
-  text-align: center;
-  align-items: center;
-  border-radius: 0;
-  background-color: white;
-  border-bottom: solid 3px #EEEEEE66;
-  height: 88px;
-}
 /* screen - x01 */
 .x01 .systems-bars-status-bar {
   background-color: transparent;
@@ -340,21 +243,6 @@ textarea::placeholder{
   position: relative;
   top: 0px;
   width: 375px;
-}
-.x01 .text-input-my {
-  background-color: #0000000d;
-  border-radius: 4px;
-  border: none;
-  height: 47px;
-  /* padding-top: .5rem; */
-  padding: 0rem 1.5rem;
-  font-size: 14px;
-  /* left: 0px; */
-  mix-blend-mode: normal;
-  /* position: absolute; */
-  /* top: 26px; */
-  width: 317px;
-  font-family: "Noto Sans CJK JP-Medium" !important;
 }
 .x01 .text-div-my-textarea {
   background-color: #0000000d;
@@ -370,22 +258,8 @@ textarea::placeholder{
   mix-blend-mode: normal;
   /* position: absolute; */
   /* top: 26px; */
-  width: 317px;
+  width: 84.5vw;
   font-family: "Noto Sans CJK JP-Medium" !important;
-}
-input.text-input-my::placeholder {
-  /* color: #1c87c9; */
-  opacity: 0.5;
-}
-.x01 .text-input-9dP0ur {
-  background-color: #0000000d;
-  border-radius: 4px;
-  height: 47px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 26px;
-  width: 317px;
 }
 .x01 .textlabel-my {
   /* background-color: transparent; */
@@ -404,11 +278,6 @@ input.text-input-my::placeholder {
   white-space: nowrap;
   width: auto;
 }
-.text-input--font14{
-  font-size: 14px !important;
-  /* opacity: 0.5; */
-  font-family: "Noto Sans CJK JP-Medium" !important;
-}
 .x01 .button-long-primary-normal-my {
   background-color: #0088ff;
   border-radius: 30px;
@@ -420,7 +289,7 @@ input.text-input-my::placeholder {
   margin-top: 45%;
   padding-top: .5rem;
   /* top: 566px; */
-  width: 320px;
+  width: 84.5vw;
   border: 0;
 }
 .x01 .button-long-primary-normal-my-agree {
@@ -434,12 +303,9 @@ input.text-input-my::placeholder {
   margin-top: 10%;
   padding-top: .5rem;
   /* top: 566px; */
-  width: 320px;
+  width: 84.5vw;
   border: 0;
 }
-/* .button-long-primary-normal-my-active{
-  opacity: 0.2 !important;
-} */
 .bold-white-16px {
   color: white;
   font-family: "Noto Sans CJK JP-Bold";
@@ -457,106 +323,18 @@ input.text-input-my::placeholder {
   width: fit-content;
   text-align: center;
 }
-.medium-black-12px {
-  color: black;
-  font-family: "Noto Sans CJK JP-Medium";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-}
-.x01 .field-input-empty {
-  background-color: transparent;
-  cursor: pointer;
-  height: 73px;
-  margin-bottom: 2rem;
-  /* left: 24px; */
-  position: relative;
-  /* top: 111px; */
-  width: 317px;
-}
-.x01 .field-input-empty-textarea {
-  background-color: transparent;
-  cursor: pointer;
-  height: fit-content;
-  margin-bottom: 2rem;
-  /* left: 24px; */
-  position: relative;
-  /* top: 111px; */
-  width: 317px;
-}
-.x01 .arrow-left-vPUO2s {
-  background-color: transparent;
-  height: 1.8rem;
-  left: 6px;
-  position: relative;
-  top: .4rem;
-  transform: rotate(90.00deg);
-  width: 12px;
-}
-.textarea-height{
-  /* height: 70rem; */
-  resize: none;
-}
-.checkbox-agree{
-  float: right;
-  margin-left: .1rem;
-}
 .image-C61RwL{
-  margin-top: 15rem;
-}
-.mailaddressmailcom-C61RwL{
-  /* mailaddress@mail.com */
-  position: relative;
-  width: 217px;
-  height: 30px;
-  /* left: 79px; */
-  /* top: 397px; */
-  text-align: center;
-  /* 20px EN */
-  font-family: SF Pro Text;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 150%;
-  border: none;
-  background-color: #00000000;
-  /* identical to box height, or 30px */
-  text-align: center;
-  margin-top: 10%;
-  /* Primary / Blue */
-  color: #0089FF;
-}
-.textlabel-C61RwL{
-  /* にメールを送信しました。 届いたメールから認証を行ってください。 */
-
-  position: relative;
-  width: 265px;
-  height: 42px;
-  /* left: 55px; */
-  /* top: 439px; */
-
-  /* 14px JP */
-  font-family: "Noto Sans CJK JP-Medium";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 150%;
-  /* or 21px */
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 60%;
-  /* Neutral / Black */
-  color: #303235;
+  margin-top: 12rem;
 }
 .practice-toolbar {
   margin: 0 0 0.5rem 0;
-  padding: 3rem 0 0 0;
+  padding: 0rem 0 0 0;
   text-align: center;
   align-items: center;
   border-radius: 0;
   background-color: white;
   /* border-bottom: solid 3px #EEEEEE; */
-  height: 88px;
+  /* height: 88px; */
 }
 .mx-auto{
   margin: auto;

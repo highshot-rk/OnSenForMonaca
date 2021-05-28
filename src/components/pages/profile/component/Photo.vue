@@ -126,7 +126,7 @@ export default {
     justify-content: center;
   }
   .b_btn_bt{
-    width: 320px;
+    width: 84.5vw;
     padding: 16px 96px;
     background: #0089FF;
     border-radius: 30px;

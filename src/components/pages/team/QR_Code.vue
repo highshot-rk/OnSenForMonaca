@@ -10,7 +10,7 @@
                                 <v-ons-icon size="1rem" icon="md-close, material:md-close"></v-ons-icon>
                             </ons-button>
                         </div>
-                        <div class="center textlabel-my text-bold-black-18px">QRコード</div>
+                        <div class="center textlabel-my text-bold-black-18px" style="color: white">QRコード</div>
                         <div class="right w-2"></div>
                     </ons-toolbar>
                 </div>
@@ -146,9 +146,9 @@ created() {
         display: flex;
         justify-content: space-around;
         background-color: white;
-        /* border-top: 1px solid lightgray; */
-        border-top-left-radius: 0.5rem;
-        border-top-right-radius: 0.5rem;
+        border-top: 0px solid lightgray;
+        border-top-left-radius: 0rem;
+        border-top-right-radius: 0rem;
         height: 10rem;
     }
     .tool_bottom{

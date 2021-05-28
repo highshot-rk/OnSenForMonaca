@@ -212,7 +212,7 @@ input.text-input-my::placeholder {
   margin-top: 45%;
   padding-top: .5rem;
   /* top: 566px; */
-  width: 320px;
+  width: 84.5vw;
   border: 0;
 }
 .x01 .button-long-primary-normal-my-agree {
@@ -226,7 +226,7 @@ input.text-input-my::placeholder {
   margin-top: 10%;
   padding-top: .5rem;
   /* top: 566px; */
-  width: 320px;
+  width: 84.5vw;
   border: 0;
 }
 .button-long-primary-normal-my-active{

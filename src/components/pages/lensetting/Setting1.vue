@@ -18,7 +18,7 @@
                             </v-ons-button>
                         </div>
                     </v-ons-toolbar>
-                    <div class="container-my" style="margin-top: 5.5rem">
+                    <div class="container-my" style="margin-top: 5.5rem; overflow-y: auto;height: 86vh">
                         <div class="setting-number">
                             <span class="setting-number-span">レーン数</span>
                             <span class="float-right-my">
@@ -257,7 +257,7 @@ created() {
         align-items: center;
         border-radius: 0;
         background-color: white;
-        height: 88px;
+        /* height: 88px; */
         border-bottom: solid 1px lightgrey;
     }
     .right-next-circle{

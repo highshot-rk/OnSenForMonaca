@@ -13,8 +13,8 @@
                 </div>
             </v-ons-toolbar>
         </div>
-        <v-ons-card class="card-item" style="margin-top: 2.9rem; padding-top: 0.2rem">
-            <v-ons-list style="background:none; height: 84vh; overflow: auto">
+        <v-ons-card class="card-item" style="padding-top: 0.2rem">
+            <v-ons-list style="background:none; height: 77vh; overflow: auto">
                 <div class="player-list-title" modifier="nodivider" style="margin-bottom: .5rem; margin-left: .8rem;margin-top: 1rem;">
                     チーム一覧
                 </div>
@@ -24,10 +24,10 @@
                 <v-ons-list-item v-for="(setting, index) in settings" :key="index"
                     class="player-list-item" style="border-bottom: solid 1px #00000018;"
                 >
-                        <div class="mb-2" style="display: inline-block; width: 45vw">
+                        <div style="display: inline-block; width: 45vw">
                             <div style="margin-left: 1rem;margin-top: 0rem;display: inline-block">{{setting.name}}</div>
                         </div>
-                        <div class="mb-2" style="text-align: right; padding-top: .4rem;width: 50%;">
+                        <div style="text-align: right; padding-top: .4rem;width: 50%;">
                             <div>
                                 <img v-for="member, index in member_list4" :src=member.avatar_src :key=index :style="{'z-index': index}"
                                     class="avatar-md" style="margin-left: -0.3rem" width="20" height="20">
@@ -83,9 +83,9 @@
                         opacity: 1;
                         '>チームA</span>"
             >
-                <v-ons-action-sheet-button icon="md-square-o" @click="goToEdit"><span>編集</span></v-ons-action-sheet-button>
-                <v-ons-action-sheet-button icon="md-square-o"  @click="open_modal_delete()" modifier="destructive">削除</v-ons-action-sheet-button>
-                <v-ons-action-sheet-button icon="md-square-o" @click="close_modal()"><span>キャンセル</span></v-ons-action-sheet-button>
+                <v-ons-action-sheet-button @click="goToEdit"><span>編集</span></v-ons-action-sheet-button>
+                <v-ons-action-sheet-button  @click="open_modal_delete()" modifier="destructive">削除</v-ons-action-sheet-button>
+                <v-ons-action-sheet-button @click="close_modal()"><span>キャンセル</span></v-ons-action-sheet-button>
           </v-ons-action-sheet>
             <v-ons-alert-dialog modifier="rowfooter"
                 :visible.sync="deleteDialogVisible"
@@ -188,17 +188,6 @@ export default {
 </script>
 
 <style scoped>
-    
-    .practice-toolbar {
-        margin: 0 0 0.5rem 0;
-        padding: 3rem 0 0 0;
-        text-align: center;
-        align-items: center;
-        border-radius: 0;
-        background-color: white;
-        border-bottom: solid 3px #EEEEEE55;
-        height: 88px;
-    }
     .toolbar-title {
         font-family: "Noto Sans JP";
         font-style: normal;
@@ -219,11 +208,11 @@ export default {
         height: 2rem;
     }
     .card-item {
-        margin: 0.2rem 0 0 0;
+        margin: 4.5rem 0 0 0;
         width: 100%;
         padding: 0.5rem;
         border-radius: 0.1rem;
-        height: calc(100vh - 5.7rem);
+        /* height: fit-content; */
         overflow: auto;
     }
     .player-list-title {
@@ -309,13 +298,13 @@ export default {
     }
     .practice-toolbar {
         margin: 0 0 0.5rem 0;
-        padding: 3rem 0 0 0;
+        padding: 0rem 0 0 0;
         text-align: center;
         align-items: center;
         border-radius: 0;
         background-color: white;
         /* border-bottom: solid 1px #EEEEEE66; */
-        height: 88px;
+        /* height: 88px; */
     }
     .list-item__center .list-item__center{
         padding:  0 !important

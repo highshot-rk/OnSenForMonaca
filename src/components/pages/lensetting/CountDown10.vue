@@ -27,7 +27,7 @@
                 :notify-every="'second'"
             ></circular-count-down-timer>
             <div style=" max-height: 11rem; overflow: auto">
-            <table class="mx-auto" style="text-align: center;width: 100%; padding-bottom: 3rem;">
+            <table class="mx-auto" style="text-align: center;width: 100%; padding-bottom: 3rem;border-spacing: unset">
                 <tr class="clock-table-th">
                     <td>セット</td>
                     <td>距離</td>
@@ -323,7 +323,7 @@ export default {
         margin-top: 1rem;
         /* padding-top: .5rem; */
         /* top: 566px; */
-        width: 320px;
+        width: 84.5vw;
         border: 0;
 
         font-family: "Noto Sans CJK JP";

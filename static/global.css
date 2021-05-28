@@ -150,7 +150,7 @@
 .screen textarea:focus,
 .screen input:focus {
   outline: none;
-
+}
 .dialog.dialog--select-modal {
   width: 101vw;
   height: 10vh;
@@ -169,4 +169,11 @@
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
   background-color: white;
+}
+@media all{
+.page .page__content {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  background-color: white !important;
+}
 }

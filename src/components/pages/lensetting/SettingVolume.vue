@@ -11,7 +11,7 @@
                 <span class="toolbar-title">メニュー実施設定</span>
             </div>
         </v-ons-toolbar>
-        <v-ons-card class="card-item" style="margin-top: 0rem; padding-top: 3rem">
+        <div style="margin-top: 0rem;padding: 1rem; padding-top: 0rem">
             <v-ons-list style="background:none">
                 <v-ons-list-item v-for="(menu, key) in menu_list" :key="key"
                     style="border-bottom: solid 1px #00000018; padding: .1rem .5rem; padding-right: 0"
@@ -39,7 +39,7 @@
             <div class="button-div">
                 <v-ons-button class="bold-white-16px mx-auto button-long-primary-normal-my">ベースクロックを設定</v-ons-button>
             </div>
-        </v-ons-card>
+        </div>
     </v-ons-page>
 </template>
 
@@ -84,7 +84,7 @@ export default {
         align-items: center;
         border-radius: 0;
         background-color: white;
-        height: 88px;
+        /* height: 88px; */
         border-bottom: solid 1px #00000012;
     }
     .toolbar-title {
@@ -111,8 +111,8 @@ export default {
         margin: 0;
         width: 100%;
         padding: 0 1rem;
-        height: calc(100vh - 2.75rem);
-        border-radius: 0.1rem;
+        height: fit-content;
+        border-bottom: 0;
     }
     .player-list-title {
         font-family: "Noto Sans CJK JP";
@@ -195,7 +195,7 @@ export default {
         margin-top: 5%;
         padding-top: .8rem;
         /* top: 566px; */
-        width: 320px;
+        width: 84.5vw;
         border: 0;
     }
     .bold-white-16px {

@@ -22,11 +22,6 @@
     <v-ons-button @click="push('Menu1')">2 PracticImplement/Menu1</v-ons-button>
     <v-ons-button @click="push('Menu1_1')">2 PracticImplement/Menu1-1</v-ons-button>
     <v-ons-button @click="push('PracticeList')">1 PracticeList</v-ons-button>
-    <v-ons-button @click="push('Signup')">3 SIGNUP</v-ons-button>
-    <v-ons-button @click="push('Login')">3 LOGIN</v-ons-button>
-    <v-ons-button @click="push('Agree')">3 AGREE</v-ons-button>
-    <v-ons-button @click="push('Mailsent')">3 MAILSENT</v-ons-button>
-    <v-ons-button @click="push('Lensetting1')">3 Lensetting1</v-ons-button>
     <v-ons-button @click="push('PracticeSearch')">4 PracticeSearch</v-ons-button>
     <v-ons-button @click="push('WelcomeOfferCoach')">1 welcomeoffercoach</v-ons-button>
     <v-ons-button @click="push('ProCoachOfferCoach')">1 ProCoachOfferCoach</v-ons-button>
@@ -77,28 +72,27 @@
     <v-ons-button @click="push('CoachSummary')">2 Graphes/CoachSummary</v-ons-button>
     <v-ons-button @click="push('CoachSummaryMemberInfo')">2 Graphes/CoachSummaryMemberInfo</v-ons-button>
 
-    <v-ons-button @click="push('Signup')">3 SIGNUP</v-ons-button>
-    <v-ons-button @click="push('Login')">3 LOGIN</v-ons-button>
-    <v-ons-button @click="push('Agree')">3 AGREE</v-ons-button>
-    <v-ons-button @click="push('Mailsent')">3 MAILSENT</v-ons-button>
-    <v-ons-button @click="push('Lensetting1', {type: 1})">3 Lensetting1</v-ons-button>
-    <v-ons-button @click="push('Lensetting1', {type: 2})">3 Lensetting2</v-ons-button>
-    <v-ons-button @click="push('Lensetting1', {type: 3})">3 Lensetting3</v-ons-button>
-    <v-ons-button @click="push('SettingAddress')">3 SettingAddress</v-ons-button>
-    <v-ons-button @click="push('SettingClock')">3 SettingClock</v-ons-button>
-    <v-ons-button @click="push('CountDown10')">3 CountDown10</v-ons-button>
-    <v-ons-button @click="push('SettingVolume')">3 SettingVolume</v-ons-button>
+    <v-ons-button @click="push('Signup')">3 sign/SIGNUP</v-ons-button>
+    <v-ons-button @click="push('Login')">3 sign/LOGIN</v-ons-button>
+    <v-ons-button @click="push('Agree')">3 sign/AGREE</v-ons-button>
+    <v-ons-button @click="push('Mailsent')">3 sign/MAILSENT</v-ons-button>
+    <v-ons-button @click="push('Lensetting1', {type: 1})">3 lensetting/Lensetting1</v-ons-button>
+    <v-ons-button @click="push('Lensetting1', {type: 2})">3 lensetting/Lensetting2</v-ons-button>
+    <v-ons-button @click="push('Lensetting1', {type: 3})">3 lensetting/Lensetting3</v-ons-button>
+    <v-ons-button @click="push('SettingAddress')">3 lensetting/SettingAddress</v-ons-button>
+    <v-ons-button @click="push('SettingClock')">3 lensetting/SettingClock</v-ons-button>
+    <v-ons-button @click="push('CountDown10')">3 lensetting/CountDown10</v-ons-button>
+    <v-ons-button @click="push('SettingVolume')">3 lensetting/SettingVolume</v-ons-button>
+
+    <v-ons-button @click="push('DeviceSetting')">3 devicesetting/DeviceSetting</v-ons-button>
+    <v-ons-button @click="push('TeamSetting')">3 team/TeamSetting</v-ons-button>
+    <v-ons-button @click="push('QR_Code')">3 team/QR_Code(member)</v-ons-button>
+    <v-ons-button @click="push('CoachSummaryT')">3 team/CoachSummaryT</v-ons-button>
+    <v-ons-button @click="push('AddChild')">3 team/AddChild</v-ons-button>
+    <v-ons-button @click="push('AddChildSuccess')">3 team/AddChildSuccess</v-ons-button>
 
     <v-ons-button @click="push('FamilySetting')">4 FamilySetting</v-ons-button>
     <v-ons-button @click="push('Policy')">4 Policy</v-ons-button>
-
-    <v-ons-button @click="push('TeamSetting')">3 TeamSetting</v-ons-button>
-    <v-ons-button @click="push('QR_Code')">3 QR_Code(member)</v-ons-button>
-    <v-ons-button @click="push('CoachSummary')">3 CoachSummary</v-ons-button>
-    <v-ons-button @click="push('DeviceSetting')">3 DeviceSetting</v-ons-button>
-    <v-ons-button @click="push('AddChild')">3 AddChild</v-ons-button>
-    <v-ons-button @click="push('AddChildSuccess')">3 AddChildSuccess</v-ons-button>
-
 
   </v-ons-page>
 </template>
